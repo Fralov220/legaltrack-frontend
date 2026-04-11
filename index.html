@@ -413,7 +413,7 @@ main{flex:1;padding:1.5rem;min-width:0;overflow-x:hidden}
 <script>
 const PROXY = window.location.hostname==='localhost'||window.location.hostname==='127.0.0.1'
   ? 'http://localhost:3001'
-  : (window.LEGALTRACK_PROXY||'https://votre-proxy.railway.app');
+ (window.LEGALTRACK_PROXY || 'https://legaltrack-proxy-production.up.railway.app');
 
 const TYPES={
   juri:{label:'Jurisprudence',cls:'bdg-juri',chip:'tchip-juri',dot:'tl-dot-juri',strip:'type-juri',color:'var(--gold)'},
